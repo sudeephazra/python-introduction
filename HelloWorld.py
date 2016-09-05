@@ -18,3 +18,12 @@ a = 8
 print(a*10) #Multiplication
 print(a**10) #Exponential
 
+#Printing the list of files in the current location
+import os
+
+#As a list
+print(os.listdir())
+
+#As each item in a list
+for x in os.listdir():
+    print(x)
