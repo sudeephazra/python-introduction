@@ -1,1 +1,7 @@
 language: python
+python:
+  - "3.5"
+  - "nightly"
+install: 
+  - pip install .
+  - pip install -r requirement.txt
